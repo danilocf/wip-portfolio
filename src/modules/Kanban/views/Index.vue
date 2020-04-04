@@ -1,6 +1,8 @@
 <template>
   <div class="Kanban_Index">
-    <h1>Kanban module</h1>
+    <div class="container">
+      <h1>Kanban module</h1>
+    </div>
   </div>
 </template>
 

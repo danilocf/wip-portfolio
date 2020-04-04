@@ -23,6 +23,9 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: $colorMain;
+  color: $colorText;
+  background-color: $colorBackground;
+  height: 100%;
+  min-height: 100vh;
 }
 </style>

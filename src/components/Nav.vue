@@ -30,14 +30,17 @@ export default {
 <style lang="scss">
 #nav {
   padding: 1rem;
+  background-color: $colorTheme;
+  border-bottom: .5rem solid $colorThemeDark;
 
   a {
     font-weight: bold;
-    color: $colorMain;
+    color: $colorThemeText;
     margin-right: 1rem;
+    text-decoration: none;
 
     &.router-link-exact-active {
-      color: $colorSecondary;
+      color: darken($color: $colorThemeDark, $amount: 20);
     }
   }
 }
