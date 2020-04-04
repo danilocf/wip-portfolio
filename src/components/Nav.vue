@@ -1,8 +1,10 @@
 <template>
   <div id="nav">
-    <router-link v-for="route in routes" :to="route.path" :key="route.path">{{
-      route.name
-    }}</router-link>
+    <template v-for="route in routes">
+      <router-link v-if="route.name" :to="route.path" :key="route.path">{{
+        route.name
+      }}</router-link>
+    </template>
   </div>
 </template>
 
